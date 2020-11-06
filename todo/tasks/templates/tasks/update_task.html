@@ -1,0 +1,29 @@
+<html>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+		<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+<style>
+    .input-group{
+        width:600px;
+		margin: 20px auto;
+		padding:20px;
+		background-color: #fff;
+    }
+    h3{
+        text-align: center;
+    }
+</style>
+<h3>Update Task</h3>
+<div class="input-group">
+<form method="POST" action="">
+	{% csrf_token %}
+
+	{{form}}
+	<input class="btn btn-info btn-sm" type="submit" name="Update Task">
+	
+
+</form>
+</div>
+  </html>
