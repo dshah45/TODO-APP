@@ -1,3 +1,3 @@
 # TODO-APP
 
-This is the basic Django Application where user can Add any task and Update and Delete the task
+**This is the basic TODO App where one can Add up any task , Update and Delete the task**
